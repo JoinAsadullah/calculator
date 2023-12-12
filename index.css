@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #181818;
     padding: 0%;
     margin: 0%;
@@ -6,9 +6,10 @@ body{
     display: flex;
     align-items: center;
 }
-.fram{
+
+.fram {
     align-items: center;
-    width : 350px;
+    width: 350px;
     height: 550px;
     text-align: center;
     margin: auto;
@@ -16,7 +17,7 @@ body{
     border-radius: 15px;
 }
 
-input{
+input {
     background-color: rgb(206, 206, 206);
     border: 1px solid #e4e5e7;
     border-radius: 15px;
@@ -29,22 +30,45 @@ input{
     font-weight: 600;
     padding: 0px 18px;
 }
-#c{
+
+@keyframes blinkAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.blink {
+    animation: blinkAnimation 0.1s ease-in-out 1;
+}
+
+#c {
     background-color: coral;
     transition: background-color .90ms ease-in-out;
 }
-#equal{
+
+#equal {
     background-color: rgba(45, 175, 33, 0.4);
     width: 315px;
     transition: background-color .90ms ease-in-out;
 }
-#equal:active{
+
+#equal:active {
     background-color: rgba(65, 247, 48, 0.4);
 }
-#c:active{
+
+#c:active {
     background-color: rgba(71, 83, 18, 0.4);
 }
-button{
+
+button {
     background-color: #5CB8E4;
     border: 1px solid #33667e;
     border-radius: 40px;
@@ -55,6 +79,7 @@ button{
     font-weight: 600;
     transition: background-color .90ms ease-in-out;
 }
-button:active{
+
+button:active {
     background-color: #046a99;
 }
