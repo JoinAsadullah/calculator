@@ -56,3 +56,63 @@ buttons.addEventListener('click' , function(e) {
         }
     }
 });
+
+document.addEventListener('keydown', function(event) {
+    console.log(event.key)
+    switch (event.key) {
+      case '0':
+        document.querySelector('#zero').click()
+        break;
+      case '1':
+        document.querySelector('#one').click()
+        break;
+      case '2':
+        document.querySelector('#two').click()
+        break;
+      case '3':
+        document.querySelector('#three').click()
+        break;
+      case '4':
+        document.querySelector('#four').click()
+        break;
+      case '5':
+        document.querySelector('#five').click()
+        break;
+      case '6':
+        document.querySelector('#six').click()
+        break;
+      case '7':
+        document.querySelector('#seven').click()
+        break;
+      case '8':
+        document.querySelector('#eight').click()
+        break;
+      case '9':
+        document.querySelector('#nine').click()
+        break;
+      case '+':
+        document.querySelector('#plus').click()
+        break;
+      case '-':
+        document.querySelector('#minus').click()
+        break;
+      case '*':
+        document.querySelector('#multiply').click()
+        break;
+      case '/':
+        document.querySelector('#divide').click()
+        break;
+      case '.':
+        document.querySelector('#point').click()
+        break;
+      case 'Enter':
+        document.querySelector('#equal').click()
+        break;
+      case 'Backspace':
+        document.querySelector('#c').click()
+        break;
+      case 'Delete':
+        document.querySelector('#c').click()
+        break;
+    }
+  });
