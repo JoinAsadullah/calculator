@@ -1,5 +1,6 @@
 # Project Name
 
+![Preview](Screenshot.png)
 ## Description
 This project is aimed at [describe your project's main purpose or goal here].
 
