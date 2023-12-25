@@ -10,4 +10,4 @@ https://joinasadullah.github.io/calculator/
 - Feature 3: Continus Calculation
 - Feature 4: Blink feedback on operator keypress
 - Feature 5: Hybrid input
-- Feature 5: Shorter code with delegation listner
+- Feature 5: Shorter code with Event Delegation
